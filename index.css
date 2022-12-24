@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Anek Latin", sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  background-color: #000;
+}
+
+main {
+  height: calc(100vh - 40px);
+}
+
+.container-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  height: 100vh;
+}
+
+.container-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 54vw;
+  background-image: url(./images/background.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.logo-twitter-left {
+  max-width: 300px;
+  min-width: 200px;
+  fill: #fff;
+}
+
+.container-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 46vw;
+  padding-left: 30px;
+  background-color: #000;
+}
+
+.logo-twitter-right {
+  max-width: 37px;
+  min-width: 37px;
+  fill: rgb(214, 217, 219);
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(214, 217, 219);
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(214, 217, 219);
+}
+
+button {
+  max-width: 240px;
+  min-width: 200px;
+  padding: 8px;
+  font-family: sans-serif;
+  font-size: 12px;
+  border: none;
+  border-radius: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btn-google {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo-google {
+  max-width: 15px;
+  min-width: 15px;
+  margin-right: 5px;
+}
+
+.btn-apple {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logo-apple {
+  max-width: 17px;
+  min-width: 17px;
+  margin-right: 5px;
+}
+
+.btn-apple:hover {
+  background-color: rgb(207, 207, 207);
+}
+
+.or {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+hr {
+  max-width: 106px;
+  min-width: 106px;
+  border-color: rgb(48, 48, 48);
+}
+
+.or p {
+  margin: 0 5px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn-email {
+  margin-top: 10px;
+  color: #fff;
+  background-color: rgb(29, 155, 240);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.btn-email:hover {
+  background-color: rgb(28, 125, 190);
+}
+
+.terms-of-service {
+  padding-left: 5px;
+  font-family: sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  color: rgb(113, 118, 123);
+}
+
+.terms-of-service a {
+  color: rgb(29, 155, 240);
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.terms-of-service a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  margin-top: 60px;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  word-spacing: 1px;
+  color: #fff;
+}
+
+.btn-sign-in {
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(29, 155, 240);
+  background-color: #000;
+  border: 1px solid rgb(113, 118, 123);
+}
+
+.btn-sign-in:hover {
+  background-color: rgb(4, 26, 43);
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 40px;
+  padding-top: 10px;
+  background-color: #000;
+}
+
+footer a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  font-size: 10px;
+  padding: 6px;
+  text-decoration: none;
+  color: rgb(113, 118, 123);
+  cursor: pointer;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  font-family: sans-serif;
+  font-size: 10px;
+  padding: 6px;
+  color: rgb(113, 118, 123);
+}
+
+@media screen and (max-width: 1017px) {
+  main {
+    display: inline;
+  }
+  .container-main {
+    display: inline-block;
+    width: 100vw;
+  }
+  .container-r {
+    width: 100vw;
+    height: 70vh;
+    margin-top: 40px;
+    padding-left: 15%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .container-l {
+    width: 100vw;
+    height: 25vh;
+    margin-top: 20px;
+  }
+  .logo-twitter-l {
+    width: 20%;
+  }
+  footer {
+    position: relative;
+  }
+}
