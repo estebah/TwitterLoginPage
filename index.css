@@ -8,16 +8,6 @@
   font-family: "Anek Latin", sans-serif;
 }
 
-html,
-body {
-  height: 100vh;
-  background-color: #000;
-}
-
-main {
-  height: calc(100vh - 40px);
-}
-
 .container-main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -225,11 +215,7 @@ footer {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-  height: 40px;
-  padding-top: 10px;
+  padding: 10px;
   background-color: #000;
 }
 
@@ -258,35 +244,23 @@ footer p {
   color: rgb(113, 118, 123);
 }
 
-@media screen and (max-width: 1017px) {
-  main {
-    display: inline;
-  }
+@media (max-width: 780px) {
   .container-main {
-    display: inline-block;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: auto;
   }
-  .container-r {
-    width: 100vw;
-    height: 70vh;
-    margin-top: 40px;
-    padding-left: 15%;
+
+  .container-left {
+    width: auto;
   }
+
+  .container-right {
+    width: auto;
+    padding: 20px;
+  }
+
   h1 {
-    font-size: 40px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  .container-l {
-    width: 100vw;
-    height: 25vh;
-    margin-top: 20px;
-  }
-  .logo-twitter-l {
-    width: 20%;
-  }
-  footer {
-    position: relative;
+    font-size: 50px;
   }
 }
